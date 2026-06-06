@@ -3,5 +3,8 @@ data/card_map.json
 data/processed_events.json
 data/poll_state.json
 data/poll_loop.pid
+data/poll_loop.log
+data/button_dedup.json
 data/registered
+data/persona_pending.json
 node_modules/
