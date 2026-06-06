@@ -1,0 +1,7 @@
+data/token.json
+data/card_map.json
+data/processed_events.json
+data/poll_state.json
+data/poll_loop.pid
+data/registered
+node_modules/

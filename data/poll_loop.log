@@ -1,0 +1,15 @@
+[2026-05-27 09:54:11] poll_loop started pid=3452
+[2026-05-27 09:54:11] channel restored: discord target: channel:1479503045510565938
+[2026-05-27 09:54:43] tick: {"processed":1,"duped":0,"active_cards":1}
+[2026-05-27 09:57:50] tick: {"processed":1,"duped":0,"active_cards":1}
+[2026-05-27 10:00:24] tick: {"processed":1,"duped":0,"active_cards":1}
+[2026-05-27 10:02:58] tick: {"processed":1,"duped":0,"active_cards":1}
+[2026-05-27 10:11:09] tick: {"processed":1,"duped":0,"active_cards":1}
+[2026-05-27 10:29:02] tick: {"processed":1,"duped":0,"active_cards":1}
+[2026-05-27 10:55:03] tick: {"processed":1,"duped":0,"active_cards":1}
+[2026-05-27 11:04:47] tick: {"processed":1,"duped":0,"active_cards":1}
+[2026-05-27 11:06:20] tick: {"processed":1,"duped":0,"active_cards":2}
+[2026-05-27 11:07:54] tick: {"processed":1,"duped":0,"active_cards":2}
+[2026-05-27 11:15:34] tick: {"processed":1,"duped":0,"active_cards":2}
+[2026-05-30 05:10:35] poll_loop started pid=20808
+[2026-05-30 05:10:35] channel restored: channel:1479503045510565938 target: auto
