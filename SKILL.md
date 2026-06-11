@@ -1,6 +1,6 @@
 ---
 name: tkseller
-version: "3.1.5"
+version: "3.1.6"
 description: TKSeller �Զ������ͻ�??skill��װ????��¼�˺����� ??/tkseller ֱ��??������??
 metadata: {"openclaw":{"emoji":"??"}}
 ---
