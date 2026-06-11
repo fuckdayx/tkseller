@@ -105,7 +105,8 @@ export function getDeviceId() {
     }
   }
 
-  _deviceIdCache = `openclaw_${createHash('md5').update(biosUuid).digest('hex').slice(0, 12)}`;
+  const hostname = require('os').hostname() || '';
+  _deviceIdCache = `openclaw_${createHash('md5').update(biosUuid + '|' + hostname).digest('hex').slice(0, 12)}`;
   return _deviceIdCache;
 }
 
@@ -203,6 +204,10 @@ export async function taskReject(videoId) {
 
 export async function taskChangeProduct(videoId) {
   return _request('POST', `/api/v1/tasks/${videoId}/change-product`, { jsonBody: {} });
+}
+
+export async function taskChangeVideo(videoId) {
+  return _request('POST', `/api/v1/tasks/${videoId}/change-video`, { jsonBody: {} });
 }
 
 export async function taskStoryboardRedo(videoId) {
